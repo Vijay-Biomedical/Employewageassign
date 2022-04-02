@@ -36,7 +36,8 @@ namespace employewageassign
 
                 EMP_WAGE = EMP_HR * EMPWAGE_WAGE_PER_HR;
                 Console.WriteLine(" WAGE FOR DAY{0} EMPLOYES is {1}:", day, EMP_WAGE);
-                TOTAL_WAGE += EMP_WAGE;
+                TOTAL_WAGE += EMP_WAGE
+                    ;
              }
             Console.WriteLine("TOTAL WAGE FOR {0}DAYS IS:{1}", NO_OF_WORKING_DAYS, TOTAL_WAGE);
             Console.ReadLine();
